@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradiente em CSS</title>
+    <style>
+        p {
+            font-size: 22px;
+            color: #ffffff;            
+        }
+
+        div {
+            height: 100px;
+            
+        }
+        .um {
+            background-color: #5e5ea3;
+        }
+        .dois {
+            background-image: linear-gradient(to bottom, #a8a7a7, #cc527a, #e8175d, #474747);
+        }
+
+        .tres {
+            background-image: linear-gradient(to left, #063940, #195e63, #ece1c3, #8ebdb6);
+        }
+        .quatro {
+            background-image: linear-gradient(to top, #264006, #5c1963, #d9ecc3, #bda28e);
+        }
+        .cinco {
+            background-image: linear-gradient(to right, #2a727c, #195e63, #ece1c3, #8ebdb6);
+        }
+        .seis {
+            background-image: linear-gradient(45deg, #1b2021, #d2d9da, #9a7a21, #964329);
+        }
+        .sete {
+            background-image: linear-gradient(-45deg, #400615 10%, #33232d 30%, #943d5d 20%, #2d1d28 20%);
+        }
+        .oito {
+            background-image: linear-gradient(90deg, #063940, #195e63, #ece1c3, #8ebdb6);
+        }
+        .nove {
+            background-image: linear-gradient(-90deg, #063940 10%, #195e63, #ece1c3, #8ebdb6);
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="um">
+        <h1>Testando Gradiente 01</h1>
+        <p>background-color</p>
+    </div>
+
+    <div class="dois">
+        <h1>Testando Gradiente 02</h1>
+        <p>background-image: linear-gradient(to bottom)</p>
+    </div>
+
+    <div class="tres">
+        <h1>Testando Gradiente 03</h1>
+        <p>background-image: linear-gradient(to left)</p>
+    </div>
+
+    <div class="quatro">
+        <h1>Testando Gradiente 04</h1>
+        <p>background-image: linear-gradient(to top)</p>
+    </div>
+
+    <div class="cinco">
+        <h1>Testando Gradiente 05</h1>
+        <p>background-image: linear-gradient(to right)</p>
+    </div>
+
+    <div class="seis">
+        <h1>Testando Gradiente 06</h1>
+        <p>background-image: linear-gradient(45 graus)</p>
+    </div>
+
+    <div class="sete">
+        <h1>Testando Gradiente 07</h1>
+        <p>background-image: linear-gradient(-45 graus)</p>
+    </div>
+
+    <div class="oito">
+        <h1>Testando Gradiente 08</h1>
+        <p>background-image: linear-gradient(90 graus)</p>
+    </div>
+
+    <div class="nove">
+        <h1>Testando Gradiente 09</h1>
+        <p>background-image: linear-gradient(-90 graus)</p>
+    </div>
+    
+</body>
+</html>

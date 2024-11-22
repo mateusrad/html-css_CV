@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>Imagem Flexivel</title>
+    
+</head>
+<body>
+    <h1>Imagem Flexivel</h1>
+    <p>Você está vendo a imagem completa? Experimente ampliar o tamanho de sua janela para aproveitar a melhor experência.</p>
+    <picture>
+        <source media="(max-width: 1050px)" srcset="imagens/viagem-500.jpg">
+        <source media="(max-width: 2000px)" srcset="imagens/viagem-1000.jpg">
+        <img src="imagens/viagem-2000.jpg" alt="Lenções">
+    </picture>
+
+    <p>Também é possivel utilizar imagens diferentes que se alternem conforme a largura da página.</p>
+    <picture>
+        <source media="(max-width: 550px)" srcset="imagens/foto-200.jpg">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-500.jpg">
+        <img src="imagens/foto-1000.jpg" alt="casal feliz">
+    </picture>
+    
+</body>
+</html>

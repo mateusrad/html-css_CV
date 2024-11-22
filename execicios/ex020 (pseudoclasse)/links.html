@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: darkred;
+        }        
+
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+
+        .especial {
+            background-color: rgb(255, 140, 140);
+        }
+
+        a:active {
+            color: yellow;
+        }
+
+        .especial:before {
+            content: '>>>';
+            font-weight: normal;
+
+        }
+
+        .especial:after {
+            content: '<<<';
+            text-decoration: none;
+            font-weight: normal;
+            
+        }
+
+        .lembrete {
+            font-size: 30px;
+            background-color: black;
+            width: 300px;
+            color: white;
+            padding: 10px;
+        }
+
+        div {
+            margin-top: 100px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://github.com/gustavoguanabara" target="_blank">Repositório GitHub</a></li>
+        <li><a href="https://www.youtube.com/cursoemvideo" target="_blank">Canal do Youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com/meus-cursos/" target="_blank" class="especial">Site do Curso em Vídeo</a></li>
+    </ul>
+
+    <div>
+        <h2>Lembretes</h2>
+        <h3>Seletores personalizados</h3>
+        <ul type="none" class="lembrete">
+            <li>#  = id</li>
+            <li>.  = class</li>
+            <li>:  = pseudo-class</li>
+            <li>:: = pseudo-element</li>
+            <li>>  = clildren</li>
+        </ul>
+    </div>
+    <h2>Vídedo da aula</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/vMlrcOVr7po?si=Qz-t0QuwoA6_Bo62" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    
+</body>
+</html>
